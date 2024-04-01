@@ -16,3 +16,14 @@ li {
     padding: 10px;
     text-decoration:none;
 }
+.paragraph-title{
+    text-align: center;
+    text-transform:uppercase;
+    width: 50%;
+    margin:auto;
+    margin-bottom: 10px;
+}
+.paragraph-text{
+    width: 50%;
+    margin:auto;
+}
