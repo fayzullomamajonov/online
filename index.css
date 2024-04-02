@@ -1,5 +1,6 @@
 .title-container{
     font-style: italic;
+    text-align: center;
 }
 
 .title {
@@ -8,8 +9,15 @@
     text-transform:uppercase;
     color:aliceblue;
     width: 400px;
+    display: inline-block;
 }
 
+a {
+    text-decoration: none;
+}
+ul{
+    text-align: center;
+}
 li {
     display: inline;
     margin:auto;
@@ -26,4 +34,17 @@ li {
 .paragraph-text{
     width: 50%;
     margin:auto;
+}
+
+.footer-block{
+    text-align: center;
+}
+
+.about, .phone, .instagramm, .location{
+    color: green;
+    display: inline-block;
+    margin: 0 20px;
+    padding-top: 50px;
+    text-align: center;
+
 }
